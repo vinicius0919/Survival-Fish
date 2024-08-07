@@ -3,8 +3,8 @@ hspeed = clamp(hspeed,-speed_max,speed_max);
 
 //limitar o y do player
 
-y = clamp(y, 0, room_height-25);
-x = clamp(x, 0, room_width);
+y = clamp(y, 0+20, room_height-25);
+x = clamp(x, 0+25, room_width-25);
 // aplicando gravidade
 
 if(!chao){
